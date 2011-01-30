@@ -1,0 +1,330 @@
+/*
+THEME NAME: Snow MorningDESCRIPTION: Rich with powerful and dynamic semantic class selectors, Sandbox is a canvas for CSS artists
+AUTHOR: <a href="http://ryuu.de/">ryuu</a> based on http://www.plaintxt.org/themes/sandbox/
+TAGS: sandbox, microformats, hcard, hatom, xoxo, widgets, image
+*/
+
+@import url('examples/3c-r.css');
+@import url('fonts.css');
+
+/* Just some example content */
+body {
+font-family: 'Linux Libertine G', 'Georgia', serif;
+color: #222222;
+font-size: 14pt;
+background: url(img/schnee.jpg) no-repeat #8cbade;
+background-position: bottom left;
+background-attachment: fixed;
+}
+
+div.skip-link {
+position:absolute;
+right:1em;
+top:1em;
+}
+
+div#wrapper {
+-moz-border-radius: 20px;
+border-radius: 20px;
+width: 70%;
+min-width: 760px; 
+margin: 0px auto;
+padding: 5px;
+background: url(img/schnee_w.jpg) no-repeat #d1e3f1;
+background-position: bottom left;
+background-attachment: fixed;
+}
+
+div#menu {
+background: #6B98BF;
+color: #324E59;
+height:2em;
+margin: 1em 0 1em 0;
+width:100%;
+font-family: 'Linux Biolinum G', sans-serif;
+font-size: 18pt;
+font-weight: 700;
+}
+
+div#menu ul,div#menu ul ul {
+line-height:1;
+list-style:none;
+margin:0;
+padding:0;
+}
+
+div#menu ul a {
+display:block;
+margin-right:1em;
+padding:0.2em 0.5em;
+text-decoration:none;
+color: #324E59;
+}
+
+div#menu ul ul ul a {
+font-style:italic;
+}
+
+div#menu ul li ul {
+left:-999em;
+position:absolute;
+}
+
+div#menu ul li:hover ul {
+left:auto;
+background: #6B98BF;
+}
+
+#content {
+background: #FFFFFF;
+padding: 5px;
+}
+
+.entry-title,.entry-meta {
+clear:both;
+}
+
+.entry-title {
+font-family: 'Linux Biolinum G', sans-serif;
+color: #324E59;
+text-shadow: 1px 1px 2px #444444;
+}
+
+.entry-title a {
+text-decoration: none;
+}
+
+.entry-date, .entry-content, .entry-meta {
+padding: 0 10px;
+}
+
+.entry-date, .entry-meta {
+font-size: 80%;
+}
+
+div#container,/*div#primary*/ {margin-top:2em;
+}
+
+form#commentform .form-label {
+margin:1em 0 0;
+}
+
+form#commentform span.required {
+background:#fff;
+color:#c30;
+}
+
+form#commentform,form#commentform p {
+padding:0;
+}
+
+input#author,input#email,input#url,textarea#comment {
+padding:0.2em;
+}
+
+div.comments ol li {
+margin:0 0 3.5em;
+}
+
+textarea#comment {
+height:13em;
+margin:0 0 0.5em;
+overflow:auto;
+width:66%;
+}
+
+.alignright,img.alignright{
+float:right;
+margin:1em 0 0 1em;
+}
+
+.alignleft,img.alignleft{
+float:left;
+margin:1em 1em 0 0;
+}
+
+.aligncenter,img.aligncenter{
+display:block;
+margin:1em auto;<img src="img/snowlogo1.png" width="161" height="150" border="0" alt="">
+text-align:center;
+}
+
+div.gallery {
+clear:both;
+height:180px;
+margin:1em 0;
+width:100%;
+}
+
+p.wp-caption-text{
+font-style:italic;
+}
+
+div.gallery dl{
+margin:1em auto;
+overflow:hidden;
+text-align:center;
+}
+
+div.gallery dl.gallery-columns-1 {
+width:100%;
+}
+
+div.gallery dl.gallery-columns-2 {
+width:49%;
+}
+
+div.gallery dl.gallery-columns-3 {
+width:33%;
+}
+
+div.gallery dl.gallery-columns-4 {
+width:24%;
+}
+
+div.gallery dl.gallery-columns-5 {
+width:19%;
+}
+
+div#nav-above {
+margin-bottom:1em;
+}
+
+div#nav-below {
+margin-top:1em;
+}
+
+div#nav-images {
+height:150px;
+margin:1em 0;
+}
+
+div.navigation {
+height:1.25em;
+}
+
+div.navigation div.nav-next {
+float:right;
+text-align:right;
+}
+
+div.sidebar h3 {
+font-size:1.2em;
+font-family: 'Linux Biolinum G', sans-serif;
+color: #324E59;
+}
+
+div.sidebar input#s {
+width:7em;
+}
+
+div.sidebar li {
+list-style:none;
+margin:0 0 2em;
+}
+
+div.sidebar li form {
+margin:0.2em 0 0;
+padding:0;
+}
+
+div.sidebar ul ul {
+margin:0 0 0 1em;
+}
+
+div.sidebar ul ul li {
+/*list-style:disc;*/
+margin:0;
+}
+
+div.sidebar ul ul ul {
+margin:0 0 0 0.5em;
+}
+
+div.sidebar ul ul ul li {
+/*list-style:circle;*/
+}
+
+div#menu ul li,div.gallery dl,div.navigation div.nav-previous {
+float:left;
+}
+
+div#header {
+background: url(img/snowlogo1.png) no-repeat;
+}
+
+#header h1, #header h1 a {
+min-height: 100px;
+text-indent: 120px;
+text-decoration: none; 
+font-family: 'NotethisRegular', 'Viner Hand ITC', serif;
+font-size: 64pt;
+color: #5D8AA6;
+}
+
+#header h1 a:hover {
+background: url(img/schnee_w.jpg) no-repeat;
+}
+
+#blog-description {
+margin-top: -65px;
+text-indent: 180px;
+}
+
+div#footer, div#menu {
+background: url(img/schnee_w.jpg) no-repeat #d1e3f1;
+background-position: bottom left;
+background-attachment: fixed;
+color: #222222;
+}
+
+#footer {
+text-align:center;
+font-size: 10pt;
+}
+
+input#author,input#email,input#url,div.navigation div {
+width:50%;
+}
+
+div.gallery *,div.sidebar div,div.sidebar h3,div.sidebar ul {
+margin:0;
+padding:0;
+}
+
+p#container {
+letter-spacing: -0.10em;
+line-height: 1.3 em;
+}
+
+/*Linkfarben*/
+a:link {
+color: #010D26;
+}
+
+a:hover {
+color: #ffffff;
+background-color: #6B98BF;
+}
+
+a:visited  {
+color: #5A6C73;
+}
+
+a:active {
+color: #324E59;
+}
+
+/*weitere Inhaltselemente*/
+blockquote {
+ font-size: 12pt;
+ line-height: 1.2em;
+ background-color: #EFEFEF;
+ padding: 5px 10px;
+}
+
+/*Klasse für Fußnoten*/
+.footnotes {
+font-size: 10pt;
+color: #444444;
+}

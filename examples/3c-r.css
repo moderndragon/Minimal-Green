@@ -1,0 +1,35 @@
+/*
+LAYOUT: Three-Column (Right)
+DESCRIPTION: Three-column fluid layout with two sidebars right of content
+*/
+div#container {
+float:left;
+width:100%; 
+}
+
+div#content {
+margin:0 410px 0 10px;
+padding: 0 10px;
+}
+
+div.sidebar {
+float:left;
+overflow:hidden;
+width:180px;
+/*background: url(img/io_lost.png) no-repeat #000000;
+background-position: bottom left;
+background-attachment: fixed;
+color: #ffffff;*/}
+
+div#primary {
+margin:0 0 0 -400px;
+}
+
+div#secondary {
+margin:0 0 0 -200px;
+}
+
+div#footer {
+clear:left;
+width:100%;
+}
