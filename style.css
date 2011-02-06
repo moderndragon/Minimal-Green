@@ -1,7 +1,11 @@
 /*
-THEME NAME: Snow MorningDESCRIPTION: Rich with powerful and dynamic semantic class selectors, Sandbox is a canvas for CSS artists
-AUTHOR: <a href="http://ryuu.de/">ryuu</a> based on http://www.plaintxt.org/themes/sandbox/
-TAGS: sandbox, microformats, hcard, hatom, xoxo, widgets, image
+THEME NAME: Snow Morning
+THEME URI: http://ryuu.de/themes/snowmorning
+DESCRIPTION: light blue theme with background image of a snowy morning
+VERSION: 0.9
+AUTHOR: <a href="http://ryuu.de/">ryuu</a> based on the Sandbox theme by <a href="http://andy.wordpress.com/">Andy Skelton</a> &amp; <a href="http://www.plaintxt.org/">Scott Allan Wallick</a>
+AUTHOR URI:
+TAGS: sandbox, microformats, hcard, hatom, xoxo, widgets, blue, light, background-image
 */
 
 @import url('examples/3c-r.css');
@@ -87,7 +91,6 @@ clear:both;
 .entry-title {
 font-family: 'Linux Biolinum G', sans-serif;
 color: #324E59;
-text-shadow: 1px 1px 2px #444444;
 }
 
 .entry-title a {
