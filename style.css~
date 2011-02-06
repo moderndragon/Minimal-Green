@@ -12,7 +12,7 @@ TAGS: sandbox, microformats, hcard, hatom, xoxo, widgets, blue, light, backgroun
 
 /* Just some example content */
 body {
-font-family: 'Linux Libertine G', 'Georgia', serif;
+font-family: Georgia, Garamond, serif;
 color: #222222;
 font-size: 14pt;
 background: url(img/schnee.jpg) no-repeat #8cbade;
@@ -44,7 +44,7 @@ color: #324E59;
 height:2em;
 margin: 1em 0 1em 0;
 width:100%;
-font-family: 'Linux Biolinum G', sans-serif;
+font-family: Helvetica, Arial, sans-serif;
 font-size: 18pt;
 font-weight: 700;
 }
@@ -88,7 +88,7 @@ clear:both;
 }
 
 .entry-title {
-font-family: 'Linux Biolinum G', sans-serif;
+font-family: Helvetica, Arial, sans-serif;
 color: #324E59;
 }
 
@@ -212,7 +212,7 @@ text-align:right;
 
 div.sidebar h3 {
 font-size:1.2em;
-font-family: 'Linux Biolinum G', sans-serif;
+font-family: Helvetica, Arial, sans-serif;
 color: #324E59;
 }
 
