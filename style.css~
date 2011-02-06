@@ -81,6 +81,8 @@ background: #6B98BF;
 #content {
 background: #FFFFFF;
 padding: 5px;
+-moz-border-radius: 20px;
+border-radius: 20px;
 }
 
 .entry-title,.entry-meta {
@@ -257,9 +259,8 @@ background: url(img/snowlogo1.png) no-repeat;
 
 #header h1, #header h1 a {
 min-height: 100px;
-text-indent: 120px;
 text-decoration: none; 
-font-family: 'NotethisRegular', 'Viner Hand ITC', serif;
+font-family: serif;
 font-size: 64pt;
 color: #5D8AA6;
 }
@@ -270,7 +271,10 @@ background: url(img/schnee_w.jpg) no-repeat;
 
 #blog-description {
 margin-top: -65px;
-text-indent: 180px;
+text-indent: 60px;
+font-size: 20px;
+font-weight: 600;
+color: #444444;
 }
 
 div#footer, div#menu {
