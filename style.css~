@@ -9,7 +9,6 @@ TAGS: sandbox, microformats, hcard, hatom, xoxo, widgets, blue, light, backgroun
 */
 
 @import url('examples/3c-r.css');
-@import url('fonts.css');
 
 /* Just some example content */
 body {
