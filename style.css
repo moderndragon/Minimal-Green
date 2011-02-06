@@ -251,10 +251,6 @@ div#menu ul li,div.gallery dl,div.navigation div.nav-previous {
 float:left;
 }
 
-div#header {
-background: url(img/snowlogo1.png) no-repeat;
-}
-
 #header h1, #header h1 a {
 min-height: 100px;
 text-decoration: none; 

@@ -81,8 +81,6 @@ background: #6B98BF;
 #content {
 background: #FFFFFF;
 padding: 5px;
--moz-border-radius: 20px;
-border-radius: 20px;
 }
 
 .entry-title,.entry-meta {
