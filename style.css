@@ -4,7 +4,7 @@ THEME URI: http://ryuu.de/themes/snowmorning
 DESCRIPTION: light blue theme with background image of a snowy morning
 VERSION: 0.9
 AUTHOR: <a href="http://ryuu.de/">ryuu</a> based on the Sandbox theme by <a href="http://andy.wordpress.com/">Andy Skelton</a> &amp; <a href="http://www.plaintxt.org/">Scott Allan Wallick</a>
-AUTHOR URI:
+AUTHOR URI: http://ryuu.de/
 TAGS: sandbox, microformats, hcard, hatom, xoxo, widgets, blue, light, background-image, fluid-width, flexible
 */
 
@@ -85,7 +85,7 @@ padding: 5px;
 
 .entry-title,.entry-meta {
 clear:both;
-}
+color: #444444;}
 
 .entry-title {
 font-family: Helvetica, Arial, sans-serif;
@@ -96,12 +96,19 @@ color: #324E59;
 text-decoration: none;
 }
 
+.entry-title a:hover {
+text-decoration: none;
+color: ##6B98BF;
+background: #FFFFFF;
+}
+
 .entry-date, .entry-content, .entry-meta {
 padding: 0 10px;
 }
 
 .entry-date, .entry-meta {
 font-size: 80%;
+color: #444444;
 }
 
 div#container,/*div#primary*/ {margin-top:2em;
@@ -313,6 +320,10 @@ color: #5A6C73;
 
 a:active {
 color: #324E59;
+}
+
+a img {
+border: none;
 }
 
 /*weitere Inhaltselemente*/
