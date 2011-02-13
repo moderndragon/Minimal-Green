@@ -96,11 +96,11 @@ color: #324E59;
 text-decoration: none;
 }
 
-.entry-title a:hover {
+/*.entry-title a:hover {
 text-decoration: none;
 color: ##6B98BF;
 background: #FFFFFF;
-}
+}*/
 
 .entry-date, .entry-content, .entry-meta {
 padding: 0 10px;
@@ -266,9 +266,9 @@ font-size: 64pt;
 color: #5D8AA6;
 }
 
-#header h1 a:hover {
+/*#header h1 a:hover {
 background: url(img/schnee_w.jpg) no-repeat;
-}
+}*/
 
 #blog-description {
 margin-top: -65px;
@@ -301,22 +301,15 @@ padding:0;
 
 p#container {
 letter-spacing: -0.10em;
-line-height: 1.3 em;
-}
+line-height: 1.3 em;}
 
 /*Linkfarben*/
 a:link {
-color: #010D26;
-}
+color: #010D26;}
 
-a:hover {
-color: #ffffff;
-background-color: #6B98BF;
-}
+/*a:hover {color: #ffffff;background-color: #6B98BF;}*/
 
-a:visited  {
-color: #5A6C73;
-}
+a:visited {color: #5A6C73;}
 
 a:active {
 color: #324E59;
