@@ -25,7 +25,7 @@
 					<span class="author vcard"><?php printf( __( 'Von %s', 'sandbox' ), '<a class="url fn n" href="' . get_author_link( false, $authordata->ID, $authordata->user_nicename ) . '" title="' . sprintf( __( 'Alle Beitr&auml;ge von %s', 'sandbox' ), $authordata->display_name ) . '">' . get_the_author() . '</a>' ) ?></span>
 					<span class="meta-sep">|</span>
 <?php if ( $cats_meow = sandbox_cats_meow(', ') ) : // Returns categories other than the one queried ?>
-					<span class="cat-links"><?php printf( __( 'Auch unter % abgelegt', 'sandbox' ), $cats_meow ) ?></span>
+					<span class="cat-links"><?php printf( __( 'Auch unter %s abgelegt', 'sandbox' ), $cats_meow ) ?></span>
 					<span class="meta-sep">|</span>
 <?php endif ?>
 					<?php the_tags( __( '<span class="tag-links">Getaggt mit ', 'sandbox' ), ", ", "</span>\n\t\t\t\t\t<span class=\"meta-sep\">|</span>\n" ) ?>
