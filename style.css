@@ -9,10 +9,11 @@ TAGS: sandbox, microformats, hcard, hatom, xoxo, widgets, blue, light, backgroun
 */
 
 @import url('examples/3c-r.css');
+@import url('fonts.css');
 
 /* Just some example content */
 body {
-font-family: Georgia, Garamond, serif;
+font-family: 'LinuxLibertineRegular', 'Georgia', serif;
 color: #222222;
 font-size: 14pt;
 background: url(img/schnee.jpg) no-repeat #8cbade;
@@ -45,7 +46,7 @@ color: #324E59;
 height:2em;
 margin: 1em 0 1em 0;
 width:100%;
-font-family: Helvetica, Arial, sans-serif;
+font-family:'LinuxBiolinumRegular', sans-serif;
 font-size: 18pt;
 font-weight: 700;
 }
@@ -89,7 +90,7 @@ clear:both;
 color: #444444;}
 
 .entry-title {
-font-family: Helvetica, Arial, sans-serif;
+font-family:'LinuxBiolinumRegular', sans-serif;
 color: #324E59;
 }
 
@@ -220,7 +221,7 @@ text-align:right;
 
 div.sidebar h3 {
 font-size:1.2em;
-font-family: Helvetica, Arial, sans-serif;
+font-family:'LinuxBiolinumRegular', sans-serif;
 color: #324E59;
 }
 
@@ -259,21 +260,22 @@ div#menu ul li,div.gallery dl,div.navigation div.nav-previous {
 float:left;
 }
 
+div#header {
+background: url(img/snowlogo1.png) no-repeat;
+}
+
 #header h1, #header h1 a {
 min-height: 100px;
+text-indent: 120px;
 text-decoration: none; 
-font-family: serif;
+font-family: 'NotethisRegular', 'Viner Hand ITC', serif;
 font-size: 64pt;
 color: #5D8AA6;
 }
 
-/*#header h1 a:hover {
-background: url(img/schnee_w.jpg) no-repeat;
-}*/
-
 #blog-description {
 margin-top: -65px;
-text-indent: 60px;
+text-indent: 180px;
 font-size: 20px;
 font-weight: 600;
 color: #444444;
