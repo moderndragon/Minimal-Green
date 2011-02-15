@@ -18,14 +18,14 @@
 <?php wp_link_pages('before=<div class="page-link">' . __( 'Seiten:', 'sandbox' ) . '&after=</div>') ?>
 				</div>
 				<div class="entry-meta">				
-					<?php printf( __( 'Dieser Eintrag wurde geschrieben von %1$s, ver&ouml;ffentlicht am  <abbr class="published" title="%2$sT%3$s">%4$s at %5$s</abbr> und abgelegt unter %6$s%7$s. Setze ein Lesezeichen auf den <a href="%8$s" title="Permalink to %9$s" rel="bookmark">Permalink</a>. Verfolge alle Kommentare mit dem <a href="%10$s" title="Comments RSS to %9$s" rel="alternate" type="application/rss+xml">RSS-Feed zu diesem Beitrag</a>.', 'sandbox' ),
+					<?php printf( __( 'Dieser Eintrag wurde geschrieben von %1$s, ver&ouml;ffentlicht am  <abbr class="published" title="%2$sT%3$s">%4$s um %5$s</abbr> und abgelegt unter %6$s%7$s. Setze ein Lesezeichen auf den <a href="%8$s" title="Permalink to %9$s" rel="bookmark">Permalink</a>. Verfolge alle Kommentare mit dem <a href="%10$s" title="Comments RSS to %9$s" rel="alternate" type="application/rss+xml">RSS-Feed zu diesem Beitrag</a>.', 'sandbox' ),
 						'<span class="author vcard"><a class="url fn n" href="' . get_author_link( false, $authordata->ID, $authordata->user_nicename ) . '" title="' . sprintf( __( 'Alle Beitr&auml;ge von%s', 'sandbox' ), $authordata->display_name ) . '">' . get_the_author() . '</a></span>',
 						get_the_time('d m Y'),
 						get_the_time('H:i:sO'),
 						the_date( '', '', '', false ),
 						get_the_time(),
 						get_the_category_list(', '),
-						get_the_tag_list( __( ' und getaggt', 'sandbox' ), ', ', '' ),
+						get_the_tag_list( __( ' und getaggt mit ', 'sandbox' ), ', ', '' ),
 						get_permalink(),
 						the_title_attribute('echo=0'),
 						comments_rss() ) ?>
