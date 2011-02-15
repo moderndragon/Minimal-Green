@@ -30,7 +30,8 @@ div#wrapper {
 -moz-border-radius: 20px;
 border-radius: 20px;
 width: 70%;
-min-width: 760px; 
+min-width: 760px;
+max-width: 1200px; 
 margin: 0px auto;
 padding: 5px;
 background: url(img/schnee_w.jpg) no-repeat #d1e3f1;
