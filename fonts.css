@@ -1,12 +1,4 @@
 @font-face {
-	font-family: 'NotethisRegular';
-	src: url('fonts/Note_this-webfont.eot');
-	src: local('☺'), url('fonts/Note_this-webfont.woff') format('woff'), url('fonts/Note_this-webfont.ttf') format('truetype'), url('fonts/Note_this-webfont.svg#webfontt4GTeQZi') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
 	font-family: 'LinuxLibertineOItalic';
 	src: url('fonts/linlibertine_it-4.2.6-webfont.eot');
 	src: local('☺'), url('fonts/linlibertine_it-4.2.6-webfont.woff') format('woff'), url('fonts/linlibertine_it-4.2.6-webfont.ttf') format('truetype'), url('fonts/linlibertine_it-4.2.6-webfont.svg#webfontIySEAXsA') format('svg');

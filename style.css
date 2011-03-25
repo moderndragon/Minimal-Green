@@ -16,82 +16,28 @@ body {
 font-family: 'LinuxLibertineRegular', 'Georgia', serif;
 color: #222222;
 font-size: 14pt;
-background: url(img/schnee.jpg) no-repeat #8cbade;
-background-position: bottom left;
-background-attachment: fixed;
-}
-
-div.skip-link {
-position:absolute;
-right:1em;
-top:1em;
+background-color: #EFEFEF;
 }
 
 div#wrapper {
--moz-border-radius: 20px;
-border-radius: 20px;
 width: 70%;
-min-width: 960px;
-max-width: 1200px; 
-margin: 0px auto;
 padding: 5px;
-background: url(img/schnee_w.jpg) no-repeat #d1e3f1;
-background-position: bottom left;
-background-attachment: fixed;
-}
-
-div#menu {
-background: #6B98BF;
-color: #324E59;
-height:2em;
-margin: 1em 0 1em 0;
-width:100%;
-font-family:'LinuxBiolinumRegular', sans-serif;
-font-size: 18pt;
-font-weight: 700;
-}
-
-div#menu ul,div#menu ul ul {
-line-height:1;
-list-style:none;
-margin:0;
-padding:0;
-}
-
-div#menu ul a {
-display:block;
-margin-right:1em;
-padding:0.2em 0.5em;
-text-decoration:none;
-color: #324E59;
-}
-
-div#menu ul ul ul a {
-font-style:italic;
-}
-
-div#menu ul li ul {
-left:-999em;
-position:absolute;
-}
-
-div#menu ul li:hover ul {
-left:auto;
-background: #6B98BF;
+margin: 0px auto;
 }
 
 #content {
-background: #FFFFFF;
+background: #FFFFFFFFF;
 padding: 5px;
 }
 
 .entry-title,.entry-meta {
 clear:both;
-color: #444444;}
+color: #444444;
+}
 
 .entry-title {
 font-family:'LinuxBiolinumRegular', sans-serif;
-color: #324E59;
+color: #00490C
 }
 
 .entry-title a {
@@ -100,8 +46,8 @@ text-decoration: none;
 
 /*.entry-title a:hover {
 text-decoration: none;
-color: ##6B98BF;
-background: #FFFFFF;
+color: ##15B800;
+background: #FFFFFFFFF;
 }*/
 
 .entry-date, .entry-content, .entry-meta {
@@ -113,7 +59,8 @@ font-size: 80%;
 color: #444444;
 }
 
-div#container,/*div#primary*/ {margin-top:2em;
+div#container,/*div#primary*/ {
+margin-top:2em;
 }
 
 form#commentform .form-label {
@@ -121,8 +68,8 @@ margin:1em 0 0;
 }
 
 form#commentform span.required {
-background:#fff;
-color:#c30;
+background:#FFFFFF;
+color:#C30;
 }
 
 form#commentform,form#commentform p {
@@ -222,7 +169,7 @@ text-align:right;
 div.sidebar h3 {
 font-size:1.2em;
 font-family:'LinuxBiolinumRegular', sans-serif;
-color: #324E59;
+color: #00490C
 }
 
 div.sidebar input#s {
@@ -261,16 +208,17 @@ float:left;
 }
 
 div#header {
-background: url(img/snowlogo1.png) no-repeat;
+background: url(bl3.jpg) no-repeat;
+height: 150px;
 }
 
 #header h1, #header h1 a {
 min-height: 100px;
 text-indent: 120px;
 text-decoration: none; 
-font-family: 'NotethisRegular', 'Viner Hand ITC', serif;
+font-family: Courier;
 font-size: 64pt;
-color: #5D8AA6;
+color: #36C600;
 }
 
 #blog-description {
@@ -282,7 +230,7 @@ color: #444444;
 }
 
 div#footer, div#menu {
-background: url(img/schnee_w.jpg) no-repeat #d1e3f1;
+background: url(img/schnee_w.jpg) no-repeat #D1D1D1;
 background-position: bottom left;
 background-attachment: fixed;
 color: #222222;
@@ -308,14 +256,14 @@ line-height: 1.3 em;}
 
 /*Linkfarben*/
 a:link {
-color: #010D26;}
+color: #0D2B01;}
 
-/*a:hover {color: #ffffff;background-color: #6B98BF;}*/
+/*a:hover {color: #FFFFFFFFF;background-color: #15B800;}*/
 
-a:visited {color: #5A6C73;}
+a:visited {color: #5A7363;}
 
 a:active {
-color: #324E59;
+color: #00490C
 }
 
 a img {
@@ -330,7 +278,7 @@ blockquote {
  padding: 5px 10px;
 }
 
-/*Klasse für Fußnoten*/
+/*Klasse fuer Fussnoten*/
 .footnotes {
 font-size: 10pt;
 color: #444444;
