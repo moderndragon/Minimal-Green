@@ -230,9 +230,6 @@ color: #444444;
 }
 
 div#footer, div#menu {
-background: url(img/schnee_w.jpg) no-repeat #D1D1D1;
-background-position: bottom left;
-background-attachment: fixed;
 color: #222222;
 }
 
