@@ -215,7 +215,8 @@ background: url(logo.png) no-repeat;
 #header h1, #header h1 a, #header h1 a:visited {
 min-height: 100px;
 text-indent: 120px;
-text-decoration: none; 
+text-decoration: none;
+text-transform: lowercase; 
 font-family: LinuxBiolinumBold;
 font-size: 64pt;
 color: #60CC00;
