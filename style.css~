@@ -23,6 +23,7 @@ div#wrapper {
 width: 70%;
 padding: 5px;
 margin: 0px auto;
+background-color: #FFFFFF;
 }
 
 #content {
@@ -208,7 +209,7 @@ float:left;
 }
 
 div#header {
-
+background: url(logo.png) no-repeat;
 }
 
 #header h1, #header h1 a {
