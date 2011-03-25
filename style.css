@@ -212,13 +212,13 @@ div#header {
 background: url(logo.png) no-repeat;
 }
 
-#header h1, #header h1 a {
+#header h1, #header h1 a, #header h1 a:visited {
 min-height: 100px;
 text-indent: 120px;
 text-decoration: none; 
-font-family: Courier;
+font-family: LinuxBiolinumBold;
 font-size: 64pt;
-color: ##60CC00;
+color: #60CC00;
 }
 
 #blog-description {
