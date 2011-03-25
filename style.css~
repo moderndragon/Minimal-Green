@@ -228,6 +228,7 @@ text-indent: 180px;
 font-size: 20px;
 font-weight: 600;
 color: #444444;
+text-transform: lowercase;
 }
 
 div#footer, div#menu {

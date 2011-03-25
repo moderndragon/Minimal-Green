@@ -38,7 +38,7 @@ color: #444444;
 
 .entry-title {
 font-family:'LinuxBiolinumRegular', sans-serif;
-color: #00490C
+color: #108E00
 }
 
 .entry-title a {
@@ -170,7 +170,7 @@ text-align:right;
 div.sidebar h3 {
 font-size:1.2em;
 font-family:'LinuxBiolinumRegular', sans-serif;
-color: #00490C
+color: #108E00
 }
 
 div.sidebar input#s {
@@ -262,7 +262,7 @@ color: #0D2B01;}
 a:visited {color: #5A7363;}
 
 a:active {
-color: #00490C
+color: #108E00
 }
 
 a img {
