@@ -1,11 +1,11 @@
 /*
-THEME NAME: Snow Morning
+THEME NAME: Green Abstraction
 THEME URI: http://ryuu.de/themes/snowmorning
-DESCRIPTION: light blue theme with background image of a snowy morning
-VERSION: 0.9
+DESCRIPTION: frugal green and white theme
+VERSION: 0.6
 AUTHOR: <a href="http://ryuu.de/">ryuu</a> based on the Sandbox theme by <a href="http://andy.wordpress.com/">Andy Skelton</a> &amp; <a href="http://www.plaintxt.org/">Scott Allan Wallick</a>
 AUTHOR URI: http://ryuu.de/
-TAGS: sandbox, microformats, hcard, hatom, xoxo, widgets, blue, light, background-image, fluid-width, flexible
+TAGS: sandbox, microformats, hcard, hatom, xoxo, widgets, green, light, fluid-width, flexible
 */
 
 @import url('examples/3c-r.css');
