@@ -208,7 +208,7 @@ float:left;
 }
 
 div#header {
-background: url(bl3.jpg) no-repeat;
+
 }
 
 #header h1, #header h1 a {

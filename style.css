@@ -208,8 +208,7 @@ float:left;
 }
 
 div#header {
-background: url(bl3.jpg) no-repeat;
-height: 150px;
+background: url(logo.png) no-repeat;
 }
 
 #header h1, #header h1 a {
