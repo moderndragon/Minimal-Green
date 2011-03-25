@@ -41,7 +41,7 @@ font-family:'LinuxBiolinumRegular', sans-serif;
 color: #108E00;
 }
 
-.entry-title a {
+.entry-title a, .entry-title a:visited {
 text-decoration: none;
 color: #108E00;
 }

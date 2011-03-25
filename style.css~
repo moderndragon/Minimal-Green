@@ -38,11 +38,12 @@ color: #444444;
 
 .entry-title {
 font-family:'LinuxBiolinumRegular', sans-serif;
-color: #108E00
+color: #108E00;
 }
 
 .entry-title a {
 text-decoration: none;
+color: #108E00;
 }
 
 /*.entry-title a:hover {
