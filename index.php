@@ -25,7 +25,7 @@
 					<span class="meta-sep">|</span>
 					<?php the_tags( __( '<span class="tag-links">Getaggt mit ', 'sandbox' ), ", ", "</span>\n\t\t\t\t\t<span class=\"meta-sep\">|</span>\n" ) ?>
 <?php edit_post_link( __( 'Bearbeiten', 'sandbox' ), "\t\t\t\t\t<span class=\"edit-link\">", "</span>\n\t\t\t\t\t<span class=\"meta-sep\">|</span>\n" ) ?>
-					<span class="comments-link"><?php comments_popup_link( __( 'Comments (0)', 'sandbox' ), __( 'Comments (1)', 'sandbox' ), __( 'Comments (%)', 'sandbox' ) ) ?></span>
+					<span class="comments-link"><?php comments_popup_link( __( 'Kommentare (0)', 'sandbox' ), __( 'Kommentar (1)', 'sandbox' ), __( 'Kommentare (%)', 'sandbox' ) ) ?></span>
 				</div>
 			</div><!-- .post -->
 
