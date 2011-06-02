@@ -9,11 +9,10 @@ TAGS: sandbox, microformats, hcard, hatom, xoxo, widgets, green, light, fluid-wi
 */
 
 @import url('examples/3c-r.css');
-@import url('fonts.css');
 
 /* Just some example content */
 body {
-font-family: 'LinuxLibertineRegular', 'Georgia', serif;
+font-family: Georgia, serif;
 color: #222222;
 font-size: 14pt;
 background-color: #FFFFFF;
@@ -38,7 +37,7 @@ color: #444444;
 }
 
 .entry-title {
-font-family:'LinuxBiolinumRegular', sans-serif;
+font-family: Arial, sans-serif;
 color: #108E00;
 clear:both;
 }
@@ -172,7 +171,7 @@ text-align:right;
 
 div.sidebar h3 {
 font-size:1.2em;
-font-family:'LinuxBiolinumRegular', sans-serif;
+font-family: Arial, sans-serif;
 color: #108E00
 }
 
@@ -220,7 +219,7 @@ min-height: 100px;
 text-indent: 120px;
 text-decoration: none;
 text-transform: lowercase; 
-font-family: LinuxBiolinumBold;
+font-family: sans-serif, Arial;
 font-size: 64pt;
 color: #60CC00;
 }
