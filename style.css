@@ -216,7 +216,7 @@ background: url(logo.png) no-repeat;
 
 #header h1, #header h1 a, #header h1 a:visited {
 min-height: 100px;
-text-indent: 120px;
+text-indent: 20px;
 text-decoration: none;
 text-transform: lowercase; 
 font-family: sans-serif, Arial;
@@ -226,8 +226,8 @@ color: #60CC00;
 
 #blog-description {
 margin-top: -65px;
-text-indent: 180px;
-font-size: 20px;
+text-indent: 20px;
+font-size: 18pt;
 font-weight: 600;
 color: #444444;
 text-transform: lowercase;
