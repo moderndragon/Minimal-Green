@@ -30,8 +30,7 @@
 <?php endif ?>
 					<?php the_tags( __( '<span class="tag-links">Getaggt mit ', 'sandbox' ), ", ", "</span>\n\t\t\t\t\t<span class=\"meta-sep\">|</span>\n" ) ?>
 <?php edit_post_link( __( 'Bearbeiten', 'sandbox' ), "\t\t\t\t\t<span class=\"edit-link\">", "</span>\n\t\t\t\t\t<span class=\"meta-sep\">|</span>\n" ) ?>
-					<span class="comments-link"><?php comments_popup_link( __( 'Kommentare (0)', 'sandbox' ), __( 'Kommentare (1)', 'sandbox' ), __( 'Kommentare (%)', 'sandbox' ) ) ?></span>
-				</div>
+				<span class="comments-link"><?php comments_popup_link( __( 'Noch keine Kommentare', 'sandbox' ), __( 'Ein Kommentar', 'sandbox' ), __( '% Kommentare', 'sandbox' ) ) ?></span></div>
 			</div><!-- .post -->
 
 <?php endwhile; ?>
