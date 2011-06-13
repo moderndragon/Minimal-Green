@@ -1,7 +1,6 @@
 	<div id="primary" class="sidebar">
 		<ul class="xoxo">
 <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar(1) ) : // begin primary sidebar widgets ?>
-<!-- 
 			<li id="pages">
 				<h3><?php _e( 'Seiten', 'sandbox' ) ?></h3>
 				<ul>
@@ -23,7 +22,7 @@
 <?php wp_get_archives('type=monthly') ?>
 
 				</ul>
-			</li> -->
+			</li> 
 <?php endif; // end primary sidebar widgets  ?>
 		</ul>
 	</div><!-- #primary .sidebar -->
@@ -31,7 +30,7 @@
 	<div id="secondary" class="sidebar">
 		<ul class="xoxo">
 <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar(2) ) : // begin secondary sidebar widgets ?>
-			<!-- <li id="search">
+			<li id="search">
 				<h3><label for="s"><?php _e( 'Suchen?', 'sandbox' ) ?></label></h3>
 				<form id="searchform" class="blog-search" method="get" action="<?php bloginfo('home') ?>">
 					<div>
@@ -60,7 +59,7 @@
 					<?php wp_meta() ?>
 
 				</ul>
-			</li> -->
+			</li> 
 <?php endif; // end secondary sidebar widgets  ?>
 		</ul>
 	</div><!-- #secondary .sidebar -->

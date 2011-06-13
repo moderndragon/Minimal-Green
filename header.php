@@ -15,6 +15,7 @@
 <div id="wrapper" class="hfeed">
 
 	<div id="header">
-	<h1 id="blog-title"><span><a href="<?php bloginfo('home') ?>/" title="<?php echo wp_specialchars( get_bloginfo('name'), 1 ) ?>" rel="home"><?php bloginfo('name') ?></a></span></h1>
+		<h1 id="blog-title"><span><a href="<?php bloginfo('home') ?>/" title="<?php echo wp_specialchars( get_bloginfo('name'), 1 ) ?>" rel="home"><?php bloginfo('name') ?></a></span></h1>
 		<div id="blog-description"><?php bloginfo('description') ?></div>
 	</div><!--  #header -->
+
