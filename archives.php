@@ -17,24 +17,24 @@ Template Name: Archives Page
 
 					<ul id="archives-page" class="xoxo">
 						<li id="category-archives">
-							<h3><?php _e( 'Archive nach Kategorien', 'sandbox' ) ?></h3>
+							<h3><?php _e( 'Archives by Category', 'sandbox' ) ?></h3>
 							<ul>
 								<?php wp_list_categories('optioncount=1&title_li=&show_count=1') ?> 
 							</ul>
 						</li>
 						<li id="monthly-archives">
-							<h3><?php _e( 'Archive nach Monaten', 'sandbox' ) ?></h3>
+							<h3><?php _e( 'Archives by Month', 'sandbox' ) ?></h3>
 							<ul>
 								<?php wp_get_archives('type=monthly&show_post_count=1') ?>
 							</ul>
 						</li>
 					</ul>
-<?php edit_post_link( __( 'Bearbeiten', 'sandbox' ), '<span class="Bearbeiten-link">', '</span>' ) ?>
+<?php edit_post_link( __( 'Edit', 'sandbox' ), '<span class="edit-link">', '</span>' ) ?>
 
 				</div>
 			</div><!-- .post -->
 
-<?php if ( get_post_custom_values('Kommentare') ) comments_template() // Add a key/value of "comments" to enable comments on pages! ?>
+<?php if ( get_post_custom_values('comments') ) comments_template() // Add a key/value of "comments" to enable comments on pages! ?>
 
 		</div><!-- #content -->
 	</div><!-- #container -->

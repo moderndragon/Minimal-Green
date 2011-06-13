@@ -10,9 +10,9 @@
 				<div class="entry-content">
 <?php the_content() ?>
 
-<?php wp_link_pages('before=<div class="page-link">' . __( 'Seiten:', 'sandbox' ) . '&after=</div>') ?>
+<?php wp_link_pages('before=<div class="page-link">' . __( 'Pages:', 'sandbox' ) . '&after=</div>') ?>
 
-<?php edit_post_link( __( 'Bearbeiten', 'sandbox' ), '<span class="edit-link">', '</span>' ) ?>
+<?php edit_post_link( __( 'Edit', 'sandbox' ), '<span class="edit-link">', '</span>' ) ?>
 
 				</div>
 			</div><!-- .post -->

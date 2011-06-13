@@ -19,7 +19,7 @@ Template Name: Links Page
 <?php wp_list_bookmarks('title_before=<h3>&title_after=</h3>&category_before=<li id="page-%id" class="%class">&after=</li>') ?>
 
 					</ul>
-<?php edit_post_link( __( 'Bearbeiten', 'sandbox' ), '<span class="edit-link">', '</span>' ) ?>
+<?php edit_post_link( __( 'Edit', 'sandbox' ), '<span class="edit-link">', '</span>' ) ?>
 
 				</div>
 			</div><!-- .post -->
