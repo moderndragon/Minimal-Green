@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Sandbox 1.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-06-28 01:04-0500\n"
-"PO-Revision-Date: 2011-06-16 15:30+0100\n"
+"PO-Revision-Date: 2011-06-16 16:14+0100\n"
 "Last-Translator: ryuu <thursa@riesenheim.net>\n"
 "Language-Team: de-DE\n"
 "MIME-Version: 1.0\n"
@@ -122,7 +122,7 @@ msgstr "Alle Posts von %s"
 #: search.php:29
 #, php-format
 msgid "Posted in %s"
-msgstr "Abgelegt unter %s"
+msgstr "Abgelegt unter %s "
 
 #: archive.php:39
 #: author.php:30
@@ -225,7 +225,7 @@ msgstr "Kategorie-Archig"
 #: category.php:28
 #, php-format
 msgid "Also posted in %s"
-msgstr "Auch in %s abgelegt"
+msgstr "Auch in %s abgelegt "
 
 #: comments.php:10
 msgid "This post is protected. Enter the password to view any comments."
