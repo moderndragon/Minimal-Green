@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Sandbox 1.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-06-28 01:04-0500\n"
-"PO-Revision-Date: 2011-06-16 16:14+0100\n"
+"PO-Revision-Date: 2011-06-16 16:22+0100\n"
 "Last-Translator: ryuu <thursa@riesenheim.net>\n"
 "Language-Team: de-DE\n"
 "MIME-Version: 1.0\n"
@@ -447,7 +447,7 @@ msgstr "RSS-Feeds"
 #: single.php:21
 #, php-format
 msgid "This entry was written by %1$s, posted on <abbr class=\"published\" title=\"%2$sT%3$s\">%4$s at %5$s</abbr>, filed under %6$s%7$s. Bookmark the <a href=\"%8$s\" title=\"Permalink to %9$s\" rel=\"bookmark\">permalink</a>. Follow any comments here with the <a href=\"%10$s\" title=\"Comments RSS to %9$s\" rel=\"alternate\" type=\"application/rss+xml\">RSS feed for this post</a>."
-msgstr "Dieser Post wurde von %1$s geschrieben, ver&ouml;ffentlicht am <abbr class=\"published\" title=\"%2$sT%3$s\">%4$s um %5$s</abbr> und unter  %6$s%7$s abgelegt. Setze ein Lesezeichen auf den <a href=\"%8$s\" title=\"Permalink to %9$s\" rel=\"bookmark\">permalink</a>. Verfolge alle Kommentare mit dem <a href=\"%10$s\" title=\"Comments RSS to %9$s\" rel=\"alternate\" type=\"application/rss+xml\">RSS-Feed zu diesem Eintrag</a>."
+msgstr "Dieser Post wurde von %1$s geschrieben, ver&ouml;ffentlicht am <abbr class=\"published\" title=\"%2$sT%3$s\">%4$s um %5$s</abbr> und abgelegt unter  %6$s%7$s. Setze ein Lesezeichen auf den <a href=\"%8$s\" title=\"Permalink to %9$s\" rel=\"bookmark\">permalink</a>. Verfolge alle Kommentare mit dem <a href=\"%10$s\" title=\"Comments RSS to %9$s\" rel=\"alternate\" type=\"application/rss+xml\">RSS-Feed zu diesem Eintrag</a>."
 
 #: single.php:28
 msgid " and tagged "
