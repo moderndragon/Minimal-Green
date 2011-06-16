@@ -5,13 +5,16 @@ msgstr ""
 "Project-Id-Version: Sandbox 1.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-06-28 01:04-0500\n"
-"PO-Revision-Date: 2011-06-16 13:36+0100\n"
+"PO-Revision-Date: 2011-06-16 15:30+0100\n"
 "Last-Translator: ryuu <thursa@riesenheim.net>\n"
-"Language-Team: Hebrew\n"
+"Language-Team: de-DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #: 404.php:7
 msgid "Not Found"
@@ -19,7 +22,7 @@ msgstr "Nicht gefunden"
 
 #: 404.php:9
 msgid "Apologies, but we were unable to find what you were looking for. Perhaps  searching will help."
-msgstr "Das hätte nicht passieren dürfen: Was Du suchst, gibt es hier nicht. Vielleicht hilft die Suchfunktion Dir weiter?"
+msgstr "Das h&auml;tte nicht passieren d&uuml;rfen: Was Du suchst, gibt es hier nicht. Vielleicht hilft die Suchfunktion Dir weiter?"
 
 #: 404.php:14
 #: functions.php:362
@@ -29,24 +32,23 @@ msgid "Find"
 msgstr "Finden!"
 
 #: archive.php:9
-#, fuzzy, php-format
+#, php-format
 msgid "Daily Archives: <span>%s</span>"
-msgstr "<span size=\"x-large\">%R</span>"
+msgstr "Tages-Archiv: <span>%s</span>"
 
 #: archive.php:11
-#, fuzzy, php-format
+#, php-format
 msgid "Monthly Archives: <span>%s</span>"
-msgstr "<span size=\"x-large\">%R</span>"
+msgstr "Monats-Archiv: <span>%s</span>"
 
 #: archive.php:13
-#, fuzzy, php-format
+#, php-format
 msgid "Yearly Archives: <span>%s</span>"
-msgstr "<span size=\"x-large\">%R</span>"
+msgstr "Jahres-Archiv: <span>%s</span>"
 
 #: archive.php:15
-#, fuzzy
 msgid "Blog Archives"
-msgstr "Alle Archive"
+msgstr "Blog-Archiv"
 
 #: archive.php:21
 #: archive.php:48
@@ -57,7 +59,7 @@ msgstr "Alle Archive"
 #: index.php:7
 #: index.php:37
 msgid "<span class=\"meta-nav\">&laquo;</span> Older posts"
-msgstr ""
+msgstr "<span class=\"meta-nav\">&laquo;</span> &Auml;ltere Posts"
 
 #: archive.php:22
 #: archive.php:49
@@ -68,16 +70,16 @@ msgstr ""
 #: index.php:8
 #: index.php:38
 msgid "Newer posts <span class=\"meta-nav\">&raquo;</span>"
-msgstr ""
+msgstr "Neuere Posts <span class=\"meta-nav\">&raquo;</span>"
 
 #: archive.php:28
 #: author.php:21
 #: category.php:18
 #: index.php:14
 #: search.php:18
-#, fuzzy, php-format
+#, php-format
 msgid "Permalink to %s"
-msgstr "Umbenennen in"
+msgstr "Permalink zu %s"
 
 #: archive.php:29
 #: author.php:22
@@ -94,15 +96,15 @@ msgstr "%1$s &#8211; %2$s"
 #: index.php:17
 #: search.php:21
 msgid "Read More <span class=\"meta-nav\">&raquo;</span>"
-msgstr ""
+msgstr "weiterlesen <span class=\"meta-nav\">&raquo;</span>"
 
 #: archive.php:35
 #: category.php:25
 #: index.php:22
 #: search.php:27
-#, fuzzy, php-format
+#, php-format
 msgid "By %s"
-msgstr "von"
+msgstr "Von %s"
 
 #: archive.php:35
 #: attachment.php:20
@@ -110,17 +112,17 @@ msgstr "von"
 #: image.php:21
 #: index.php:22
 #: search.php:27
-#, fuzzy, php-format
+#, php-format
 msgid "View all posts by %s"
-msgstr "/Objekte sortieren/alle nach Namen"
+msgstr "Alle Posts von %s"
 
 #: archive.php:37
 #: author.php:28
 #: index.php:24
 #: search.php:29
-#, fuzzy, php-format
+#, php-format
 msgid "Posted in %s"
-msgstr "Auch in"
+msgstr "Abgelegt unter %s"
 
 #: archive.php:39
 #: author.php:30
@@ -128,7 +130,7 @@ msgstr "Auch in"
 #: index.php:26
 #: search.php:31
 msgid "<span class=\"tag-links\">Tagged "
-msgstr ""
+msgstr "<span class=\"tag-links\">Getaggt mit "
 
 #: archive.php:40
 #: archives.php:32
@@ -170,72 +172,69 @@ msgid "Comments (%)"
 msgstr "% Kommentare"
 
 #: archives.php:20
-#, fuzzy
 msgid "Archives by Category"
-msgstr " Wiedergabeliste (nach Kategorie) "
+msgstr "Archiv nach Kategorie "
 
 #: archives.php:26
-#, fuzzy
 msgid "Archives by Month"
-msgstr "Monatsansicht wochenweise durchblättern"
+msgstr "Archiv nach Monaten"
 
 #: attachment.php:8
 #: image.php:8
-#, fuzzy, php-format
+#, php-format
 msgid "Return to %s"
-msgstr "Auf Echtzeit zurückstellen"
+msgstr "zu %s zur&uuml;ckkehren"
 
 #: attachment.php:19
 #: image.php:20
 #, php-format
 msgid "Posted by %1$s on <abbr class=\"published\" title=\"%2$sT%3$s\">%4$s at %5$s</abbr>. Bookmark the <a href=\"%6$s\" title=\"Permalink to %7$s\" rel=\"bookmark\">permalink</a>. Follow any comments here with the <a href=\"%8$s\" title=\"Comments RSS to %7$s\" rel=\"alternate\" type=\"application/rss+xml\">RSS feed for this post</a>."
-msgstr "Veröffentlicht von %1$s am <abbr class=\"published\" title=\"%2$sT%3$s\">%4$s um %5$s</abbr>. Setze einen <a href=\"%6$s\" title=\"Permalink auf %7$s\" rel=\"bookmark\">Permalink</a> zu diesem Post. Verfolge alle Kommentare mit dem <a href=\"%8$s\" title=\"Kommentar-RSS-Feed zu %7$s\" rel=\"alternate\" type=\"application/rss+xml\">RSS-Feed zu diesem Post</a>."
+msgstr "Ver&ouml;ffentlicht von %1$s am <abbr class=\"published\" title=\"%2$sT%3$s\">%4$s um %5$s</abbr>. Setze einen <a href=\"%6$s\" title=\"Permalink auf %7$s\" rel=\"bookmark\">Permalink</a> zu diesem Post. Verfolge alle Kommentare mit dem <a href=\"%8$s\" title=\"Kommentar-RSS-Feed zu %7$s\" rel=\"alternate\" type=\"application/rss+xml\">RSS-Feed zu diesem Post</a>."
 
 #: attachment.php:30
 #: image.php:31
 #, php-format
 msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
-msgstr ""
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Hinterlasse einen Kommentar\">Schreibe einen Kommentar</a> oder setze einen Trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL f&uuml;r diesen Post\" rel=\"trackback\">Trackback URL</a>."
 
 #: attachment.php:32
 #: image.php:33
 #, php-format
 msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
-msgstr ""
+msgstr "Die Kommentare sind geschlossen, aber Du kannst einen Trackback setzen: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL f&uuml;r diesen Post\" rel=\"trackback\">Trackback URL</a>."
 
 #: attachment.php:34
 #: image.php:35
 msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
-msgstr ""
+msgstr "Trackbacks sind geschlossen, aber Du kannst <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">einen Kommentar schreiben</a>."
 
 #: attachment.php:36
 #: image.php:37
 msgid "Both comments and trackbacks are currently closed."
-msgstr ""
+msgstr "Trackbacks und Kommentare sind zur Zeit geschlossen."
 
 #: author.php:8
 #, php-format
 msgid "Author Archives: <span class=\"vcard\">%s</span>"
-msgstr ""
+msgstr "Archiv nach Autor: <span class=\"vcard\">%s</span>"
 
 #: category.php:6
-#, fuzzy
 msgid "Category Archives:"
-msgstr "Alle Archive"
+msgstr "Kategorie-Archig"
 
 #: category.php:28
-#, fuzzy, php-format
+#, php-format
 msgid "Also posted in %s"
-msgstr "Auch in"
+msgstr "Auch in %s abgelegt"
 
 #: comments.php:10
 msgid "This post is protected. Enter the password to view any comments."
-msgstr ""
+msgstr "Diese Post ist geschützt. Bitte gib das Paßwort ein, um Kommentare zu lesen."
 
 #: comments.php:29
-#, fuzzy, php-format
+#, php-format
 msgid "<span>%d</span> Comments"
-msgstr "Zeichenkette mit Kommentar"
+msgstr "<span>%d </span> Kommentare"
 
 #: comments.php:29
 msgid "<span>One</span> Comment"
@@ -244,30 +243,29 @@ msgstr "<span>Ein</span> Kommentar"
 #: comments.php:36
 #, php-format
 msgid "Posted %1$s at %2$s <span class=\"meta-sep\">|</span> <a href=\"%3$s\" title=\"Permalink to this comment\">Permalink</a>"
-msgstr ""
+msgstr "Gechrieben am %1$s um %2$s <span class=\"meta-sep\">|</span> <a href=\"%3$s\" title=\"Permalink zu diesem Kommentar\">Permalink</a>"
 
 #: comments.php:41
 msgid "\t\t\t\t\t<span class='unapproved'>Your comment is awaiting moderation.</span>\n"
-msgstr ""
+msgstr "\t\t\t\t\t<span class='unapproved'> Dein Kommentar wartet auf seine Freischaltung.</span>\n"
 
 #: comments.php:55
-#, fuzzy, php-format
+#, php-format
 msgid "<span>%d</span> Trackbacks"
-msgstr "benötigte Z&eilen:"
+msgstr "<span>%d</span> Trackbacks"
 
 #: comments.php:55
-#, fuzzy
 msgid "<span>One</span> Trackback"
-msgstr "Ein Wort wurde geprüft."
+msgstr "<span>Ein</span> Trackback"
 
 #: comments.php:62
-#, fuzzy, php-format
+#, php-format
 msgid "By %1$s on %2$s at %3$s"
-msgstr "Kompiliert von %s auf %s (%s)\n"
+msgstr "Geschrieben von %1$s am %2$s um %3$s"
 
 #: comments.php:67
 msgid "\\t\\t\\t\\t\\t<span class=\"unapproved\">Your trackback is awaiting moderation.</span>\\n"
-msgstr ""
+msgstr "\\t\\t\\t\\t\\t<span class=\"unapproved\">Dein Trackback wartet auf seine Freischaltung.</span>\\n"
 
 #: comments.php:82
 msgid "Post a Comment"
@@ -276,20 +274,20 @@ msgstr "Hinterlasse einen Kommentar"
 #: comments.php:85
 #, php-format
 msgid "You must be <a href=\"%s\" title=\"Log in\">logged in</a> to post a comment."
-msgstr ""
+msgstr "Du mu&szlig;t <a href=\"%s\" title=\"Anmelden\">angemeldet</a> sein, um einen Kommentar zu schreiben."
 
 #: comments.php:93
 #, php-format
 msgid "<span class=\"loggedin\">Logged in as <a href=\"%1$s\" title=\"Logged in as %2$s\">%2$s</a>.</span> <span class=\"logout\"><a href=\"%3$s\" title=\"Log out of this account\">Log out?</a></span>"
-msgstr ""
+msgstr "<span class=\"loggedin\">Angemeldet als <a href=\"%1$s\" title=\"Angemeldet als %2$s\">%2$s</a>.</span> <span class=\"logout\"><a href=\"%3$s\" title=\"Von diesem Account abmelden\">Abmelden?</a></span>"
 
 #: comments.php:100
 msgid "Your email is <em>never</em> shared."
-msgstr ""
+msgstr "Deine E-mail-Adresse wird <em>niemals</em> weitergegeben."
 
 #: comments.php:100
 msgid "Required fields are marked <span class=\"required\">*</span>"
-msgstr ""
+msgstr "Notwendige Felder sind mit einem <span class=\"required\">*</span> markiert."
 
 #: comments.php:102
 msgid "Name"
@@ -377,15 +375,15 @@ msgstr "Alle Kommentare"
 
 #: functions.php:467
 msgid "A search form for your blog (Sandbox)"
-msgstr ""
+msgstr "Ein Suchformular für Dein Blog (Sandbox)"
 
 #: functions.php:476
 msgid "Log in/out and administration links (Sandbox)"
-msgstr ""
+msgstr "An- und Abmeldelinks für die Verwaltung (Sandbox)"
 
 #: functions.php:485
 msgid "RSS links for both posts and comments (Sandbox)"
-msgstr ""
+msgstr "RSS-Links f&uuml;r Posts und Kommentare (Sandbox)"
 
 #: header.php:8
 #: sidebar.php:49
@@ -410,17 +408,17 @@ msgstr "Seiten:"
 
 #: search.php:8
 msgid "Search Results for:"
-msgstr "Suchergebnisse für:"
+msgstr "Suchergebnisse f&uuml;r:"
 
 #: search.php:11
 #: search.php:42
 msgid "<span class=\"meta-nav\">&laquo;</span> Older results"
-msgstr ""
+msgstr "<span class=\"meta-nav\">&laquo;</span> &Auml;ltere Ergebnisse"
 
 #: search.php:12
 #: search.php:43
 msgid "Newer results <span class=\"meta-nav\">&raquo;</span>"
-msgstr ""
+msgstr "Neuere Ergebnisse <span class=\"meta-nav\">&raquo;</span>"
 
 #: search.php:49
 msgid "Nothing Found"
@@ -428,7 +426,7 @@ msgstr "Nichts gefunden"
 
 #: search.php:51
 msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
-msgstr ""
+msgstr "Entschuldigung, nichts entsprach Deinen Suchkriterien. Bitte versuche es noch einmal mit anderen Stichworten."
 
 #: sidebar.php:6
 msgid "Pages"
@@ -449,7 +447,7 @@ msgstr "RSS-Feeds"
 #: single.php:21
 #, php-format
 msgid "This entry was written by %1$s, posted on <abbr class=\"published\" title=\"%2$sT%3$s\">%4$s at %5$s</abbr>, filed under %6$s%7$s. Bookmark the <a href=\"%8$s\" title=\"Permalink to %9$s\" rel=\"bookmark\">permalink</a>. Follow any comments here with the <a href=\"%10$s\" title=\"Comments RSS to %9$s\" rel=\"alternate\" type=\"application/rss+xml\">RSS feed for this post</a>."
-msgstr "Dieser Post wurde von %1$s geschrieben, veröffentlicht am <abbr class=\"published\" title=\"%2$sT%3$s\">%4$s um %5$s</abbr> und unter  %6$s%7$s abgelegt. Setze ein Lesezeichen auf den <a href=\"%8$s\" title=\"Permalink to %9$s\" rel=\"bookmark\">permalink</a>. Verfolge alle Kommentare mit dem <a href=\"%10$s\" title=\"Comments RSS to %9$s\" rel=\"alternate\" type=\"application/rss+xml\">RSS-Feed zu diesem Eintrag</a>."
+msgstr "Dieser Post wurde von %1$s geschrieben, ver&ouml;ffentlicht am <abbr class=\"published\" title=\"%2$sT%3$s\">%4$s um %5$s</abbr> und unter  %6$s%7$s abgelegt. Setze ein Lesezeichen auf den <a href=\"%8$s\" title=\"Permalink to %9$s\" rel=\"bookmark\">permalink</a>. Verfolge alle Kommentare mit dem <a href=\"%10$s\" title=\"Comments RSS to %9$s\" rel=\"alternate\" type=\"application/rss+xml\">RSS-Feed zu diesem Eintrag</a>."
 
 #: single.php:28
 msgid " and tagged "
