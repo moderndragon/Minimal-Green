@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Sandbox 1.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-06-28 01:04-0500\n"
-"PO-Revision-Date: 2011-06-16 16:22+0100\n"
+"PO-Revision-Date: 2011-06-16 16:25+0100\n"
 "Last-Translator: ryuu <thursa@riesenheim.net>\n"
 "Language-Team: de-DE\n"
 "MIME-Version: 1.0\n"
@@ -451,7 +451,7 @@ msgstr "Dieser Post wurde von %1$s geschrieben, ver&ouml;ffentlicht am <abbr cla
 
 #: single.php:28
 msgid " and tagged "
-msgstr "und getaggt mit"
+msgstr " und getaggt mit "
 
 #: tag.php:6
 msgid "Tag Archives:"
@@ -460,5 +460,5 @@ msgstr "Tag-Archiv:"
 #: tag.php:28
 #, php-format
 msgid "Also tagged %s"
-msgstr "Auch getaggt mit %s"
+msgstr "Auch getaggt mit %s "
 
