@@ -211,7 +211,7 @@ float:left;
 }
 
 div#header {
-background: url(logo.png) no-repeat;
+/*background: url(logo.png) no-repeat;  - for use with a logo: simply put the logo url there, adjust position, indent header, if needed*/
 }
 
 #header h1, #header h1 a, #header h1 a:visited {
